@@ -1,9 +1,6 @@
 ---
 description: Agent specialized in Git branch management operations
 mode: subagent
-tools:
-  bash: true
-  read: true
 permissions:
   bash:
     "git branch": allow
