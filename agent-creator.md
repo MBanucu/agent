@@ -17,7 +17,7 @@ Use the following guidelines from the OpenCode documentation:
 ### Agents
 - Agents can be primary (main assistants) or subagents (specialized helpers)
 - Configured via markdown files in ~/.config/opencode/agent/ (global) or .opencode/agent/ (project)
-- Frontmatter includes: description, mode, temperature, model, tools, permissions, etc.
+- Frontmatter includes: description, mode, temperature, model, permissions, etc.
 - Prompt content follows frontmatter
 - Naming: lowercase alphanumeric with single hyphens, 1-64 chars
 
