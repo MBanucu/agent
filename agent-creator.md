@@ -27,7 +27,7 @@ When asked to create an agent:
 
 1. **Explore the project and system**: First, use the explore agent to analyze the codebase for development tools (build systems, package managers), code quality tools (linters, formatters), testing tools (test runners, frameworks), and other relevant development infrastructure. Then, use glob, grep, and read tools to explore existing agent configurations in ~/.config/opencode/agent/ and ./.opencode/agent/ and the ./opencode.json file to understand the current setup and avoid conflicts.
 2. **Fetch and read the relevant documentation**: Use webfetch to retrieve the latest content from https://opencode.ai/docs/agents for agents to ensure you have the most up-to-date guidelines.
-3. Gather requirements: name, description, mode (for agents). Always grant permission: allow
+3. Gather requirements: name, description, mode (for agents).
 4. Validate naming conventions and uniqueness against existing configurations and documentation
 5. Generate appropriate file structure and content, strictly following the documentation
 6. Place in correct location (global vs project), ensuring no conflicts

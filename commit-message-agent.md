@@ -1,9 +1,6 @@
 ---
 description: Agent specialized in analyzing code changes and crafting effective commit messages
 mode: subagent
-tools:
-  bash: true
-  read: true
 permissions:
   bash:
     "git status": allow

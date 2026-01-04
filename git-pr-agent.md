@@ -1,9 +1,6 @@
 ---
 description: Agent specialized in GitHub pull request management operations
 mode: subagent
-tools:
-  bash: true
-  read: true
 permissions:
   bash:
     "gh pr create": ask
